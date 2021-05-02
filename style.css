@@ -1,0 +1,71 @@
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+p{
+    font-family: 'Orelega One', cursive;
+    font-size: 1rem;
+}
+header{
+  font-family: 'Original Surfer', cursive;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+}
+#speechers {
+  padding-top: 3em;
+}
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: #0d6efd;
+  display: flex;
+  overflow-x: auto;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+  background-color: #ffffff;
+}
+.nav__icon {
+  font-size: 20px;
+}
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
