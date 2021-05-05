@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(9, 16, 48);
+}
+
 a.custom-card,
 a.custom-card:hover {
   color: inherit;
@@ -11,20 +15,28 @@ header{
   position: fixed;
   width: 100%;
   z-index: 1;
+  background-color: rgb(255, 0, 149);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 
 }
 #speechers {
-  padding-top: 3em;
+  padding-top: 4rem;
+  background-color: rgb(9, 16, 48);
 }
 .nav {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 55px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  background-color: #0d6efd;
+  box-shadow: 0 0 4px rgba(250, 10, 150, 0.979);
+  background-color: rgb(255, 0, 149);
   display: flex;
   overflow-x: auto;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 
 .nav__link {
@@ -45,7 +57,7 @@ header{
 }
 
 .nav__link:hover {
-  background-color: #ffffff;
+  background-color: #686767a1;
 }
 .nav__icon {
   font-size: 20px;
@@ -68,4 +80,29 @@ header{
   left: 0;
   width: 100%;
   height: 100%;
+}
+.live {
+  padding-top: 4rem;
+  background-color:  rgb(9, 16, 48);
+  font-family: sans-serif;
+  color: #fffb00;
+}
+.sp {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.icons {
+  position: fixed;
+  top: 30%;
+  left: 0%;
+  display: flex;
+  background-color: rgb(70, 70, 70);
+  writing-mode: vertical-rl;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.liv {
+  text-orientation: upright;
+  text-decoration: none;
+  color: #ffffff;
 }
